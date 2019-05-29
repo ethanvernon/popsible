@@ -138,21 +138,23 @@ li a:hover {
 /*--------------------------------------------------------------------------------------------------------------------------*/
 
 .happenings-row {
-  max-width:800px;
+  max-width:calc(.9*100vw);
   overflow: hidden;
+  margin-right:auto !important;
+  margin-left:auto !important;
 }
 
 .left-col {
-  max-width:400px;
+  max-width:calc(.45*100vw);
 }
 
 .right-col {
-  max-width:400px;
+  max-width:calc(.45*100vw);
 }
 
 .big-box {
   background-image: url(./home-back.jpg);
-  height:400px;
+  height:calc(.45*100vw);
   overflow:hidden; 
   width:100%;
   background-position: center !important;
@@ -168,8 +170,8 @@ li a:hover {
 
 .small-box {
   background-image: url(./home-back.jpg);
-  height:200px;
-  width:200px;
+  height:calc(.225*100vw);
+  width:50%;
   overflow:hidden; 
   background-position: center !important;
   background-repeat:no-repeat;
@@ -182,52 +184,24 @@ li a:hover {
   float:right;
 }
 
-
-/*.grid-container {
-  display: grid;
-  grid-template-columns: 250px 250px;
-  grid-template-rows: 250px 250px 250px;
-  grid-template-areas: "big big" "big big" "sad sav";
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+/*-----------------------------------------glimpses-----------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+.current-slide {
+  background-image: url(./home-back.jpg);
+  height:200px;
+  width:200px;
+  overflow:hidden; 
+  background-position: center !important;
+  background-repeat:no-repeat;
+  background-size:cover;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index:2;
+  margin-left:auto;
+  margin-right:auto;
 }
-
-.big { 
-  grid-area: big;
-}
-
-.grid-img-lg {
-  height:500px;
-  width:500px;
-}
-
-.grid-img-sm {
-  height:250px;
-  width:250px;
-}
-
-.sad { grid-area: sad; }
-
-.sav { grid-area: sav; }
-
-.grid-container2 {
-  display: grid;
-  grid-template-columns: 250px 250px;
-  grid-template-rows: 250px 250px 250px;
-  grid-template-areas: "weqr ert" "tyu yui" "vbn nvb";
-}
-
-.weqr { grid-area: weqr; }
-
-.ert { grid-area: ert; }
-
-.tyu { grid-area: tyu; }
-
-.yui { grid-area: yui; }
-
-.vbn { grid-area: vbn; }
-
-.nvb { grid-area: nvb; }*/
 
 
 

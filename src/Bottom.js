@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button, Container, Col, Row} from 'reactstrap';
 import slide1 from './hotel-slide1.jpg';
 
-export class Glimpses extends Component {
+export class Bottom extends Component {
 	constructor(props) {
 		super(props);
 
@@ -17,24 +17,22 @@ export class Glimpses extends Component {
 
 	render() {
 	return (
-		<div className='glimpses'>
+		
+		<div className='bottom'>
 			<Container className='glimpses-header'>
 				<Row>
 					<Col>
-						<h2>Glimpses of the Pops</h2>
-						<p>Explroe our hotel rooms, dining room, reception gym room and more...</p>
+						<p>EN / Chinese / Chinese</p>
 					</Col>
 					<Col>
-						<Button>Prev</Button>
-						<Button>Next</Button>
-						<div>3 of 10</div>
+						<p>Privacy policy</p>
 					</Col>
+					<Col>
+						<p>Copyright</p>
+					</Col>					
 				</Row>
 			</Container>
-			<div className="glimpses-slide">
-				<div class="current-slide"></div>
-			</div>
 		</div>
-    );
+		);
   }
 }

@@ -4,6 +4,9 @@ import {Header} from './Header';
 import {YourStay} from './YourStay';
 import {Happenings} from './Happenings';
 import {Glimpses} from './Glimpses';
+import {AboutUs} from './AboutUs';
+import {Footer} from './Footer';
+import {Bottom} from './Bottom';
 import mockup from './mockup.jpg';
 
 export class Home extends Component {
@@ -43,8 +46,11 @@ export class Home extends Component {
 
 			<Glimpses/>
 
-			<img src={mockup}/>
-			
+			<AboutUs/>
+
+			<Footer/>
+
+			<Bottom/>			
 		</div>
 		);
 	}

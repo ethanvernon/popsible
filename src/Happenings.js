@@ -26,13 +26,13 @@ export class Happenings extends Component {
 
 			<Container className='happenings-grid'>
 				<Row noGutters className='happenings-row'>
-					<Col lg='6' className='left-col'>
+					<Col md='6' className='left-col'>
 						<div class="big big-box"></div>
 						<div class="small-box"></div>
 						<div class="small-box"></div>
 					</Col>
 
-					<Col lg='6' className='right-col'>
+					<Col md='6' className='right-col'>
 						<div class="small-box"></div>
 						<div class="small-box"></div>
 						<div class="small-box"></div>
