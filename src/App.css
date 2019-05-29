@@ -1,0 +1,495 @@
+.App {
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------Header---------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*holds navbar, matches background for large screens*/
+.navbar-container {
+  background-color:transparent !important;
+  width:100%;
+  height:100px;
+  z-index:5;
+  position:fixed;
+  top:0px;
+}
+
+#white-nav {
+  background-color:transparent !important;
+}
+
+.collapse ul {
+  background-color:white;
+}
+
+nav {
+  position:fixed !important;
+  top:0px;
+  width:100%;
+  z-index:5;
+}
+
+.navbar-brand img{
+  height:24px;
+  margin-top:-6.5px;
+}
+
+.navbar-brand a:hover {
+  color:lightblue !important;
+}
+
+.nav-item {
+  padding-left:10px;
+  padding-right:10px;
+  font-size:14px;
+  font-weight:500;
+  letter-spacing:1px;
+}
+
+.nav-item a {
+  color: #ff6700 !important;
+}
+
+ul {
+  padding:10px;
+}
+
+li a {
+  color:#ff6700 !important;
+  line-height:30px;
+}
+
+a:link {
+  text-decoration: none !important;
+}
+
+li a:hover {
+  color:lightblue !important;
+}
+
+.dropdown .nav-link {
+  padding:0px;
+  padding-left:20px;
+}
+
+.no-padding-nav {
+  padding:0px !important;
+  padding-left:20px !important;
+}
+
+.padded-nav {
+  padding-left:20px;
+}
+
+.navbar-nav {
+  text-align:right;
+}
+
+@media only screen and (min-width: 900px) {
+  nav {
+    width:940px;
+    left:50%;
+    margin-left:-470px;
+  }
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------Home-----------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+.main {
+  background-image: url(./home-back.jpg);
+  height:100vh;
+  overflow:hidden; 
+  width:100%;
+  background-position: center !important;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .main {
+    background-attachment: scroll;
+  }
+}
+
+
+/*-----------------------------------------slideshow==----------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+.slideshow {
+  height:500px;
+  background-color:#8039c7;
+}
+
+/*-----------------------------------------happenings-----------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+.happenings-row {
+  max-width:800px;
+  overflow: hidden;
+}
+
+.left-col {
+  max-width:400px;
+}
+
+.right-col {
+  max-width:400px;
+}
+
+.big-box {
+  background-image: url(./home-back.jpg);
+  height:400px;
+  overflow:hidden; 
+  width:100%;
+  background-position: center !important;
+  background-repeat:no-repeat;
+  background-size:cover;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index:2;
+
+}
+
+.small-box {
+  background-image: url(./home-back.jpg);
+  height:200px;
+  width:200px;
+  overflow:hidden; 
+  background-position: center !important;
+  background-repeat:no-repeat;
+  background-size:cover;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index:2;
+  float:right;
+}
+
+
+/*.grid-container {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-template-rows: 250px 250px 250px;
+  grid-template-areas: "big big" "big big" "sad sav";
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.big { 
+  grid-area: big;
+}
+
+.grid-img-lg {
+  height:500px;
+  width:500px;
+}
+
+.grid-img-sm {
+  height:250px;
+  width:250px;
+}
+
+.sad { grid-area: sad; }
+
+.sav { grid-area: sav; }
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-template-rows: 250px 250px 250px;
+  grid-template-areas: "weqr ert" "tyu yui" "vbn nvb";
+}
+
+.weqr { grid-area: weqr; }
+
+.ert { grid-area: ert; }
+
+.tyu { grid-area: tyu; }
+
+.yui { grid-area: yui; }
+
+.vbn { grid-area: vbn; }
+
+.nvb { grid-area: nvb; }*/
+
+
+
+/*-----------------------------------------ending---------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+.ending {
+  background-image: url(./ending-back.jpg);
+  height:fit-content;
+  min-height:200px;
+  overflow:hidden; 
+  width:100%;
+  background-position: center !important;
+  background-repeat:no-repeat;
+  background-size:cover;
+  color:white;
+  text-align:center;
+  padding:60px 0px 60px 0px;
+}
+
+.quantifiable {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.quantifiable h2 {
+  font-size:50px;
+  margin:auto;
+  letter-spacing:2px;
+  padding-top:40px;
+}
+
+.ending-h3 {  
+  font-size:25px;
+  letter-spacing:2px;
+  font-weight:600;
+  margin-top:10px;
+  padding-bottom:40px !important;
+  margin-bottom:0px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------footer---------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+.footer {
+  height:250px;
+}
+
+.social-media {
+  margin:30px auto;
+  width:fit-content;
+}
+
+.social-icons {
+  margin: 20px;
+}
+
+.footer p {
+  text-align:center;
+  margin-bottom:50px;
+  color:#ff6700;
+}
+
+.up-container {
+  width:fit-content;
+  margin:30px auto;
+}
+
+.back-top {
+ color:#ff6700;
+}
+
+.back-top:hover {
+  cursor:pointer;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------about----------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+.heading {
+  text-align:center;  
+  margin-top:48px;
+  background-image: url(./about-back.jpg);
+  height:500px;
+  overflow:hidden; 
+  width:100%;
+  background-position: center !important;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color:white;
+}
+
+@media only screen and (max-width: 500px) {
+  .heading {    
+  	background-image: url(./about-back-mobile.jpg);
+  	background-attachment:scroll;
+  }
+}
+
+
+.logistics .heading h1 {  
+  letter-spacing:3px;
+  font-weight:700;  
+  font-size:calc(20px + 2vw);
+}
+
+.logistics .key-solution {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width:900px;
+  font-size:19px;
+}
+
+.logistics .perks {
+  margin-top:50px;
+  max-width:95%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.logistics .perks h2 {
+  padding-top:40px;
+  text-align:center;
+  max-width:900px;
+  margin:auto;
+  font-size:35px;
+  color: #2a2e30;
+}
+
+.logistics .perks-desc {
+  padding-top:20px;
+  padding-bottom:20px;
+  text-align:center;
+  max-width:900px;
+  margin:auto;
+  font-size:20px;
+  letter-spacing:1px;  
+  margin-bottom:20px;
+  color:#707a80;
+}
+
+.logistics .card-h3 {
+  font-size:24px;
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:10px;
+  color: #2a2e30;
+}
+
+.perks .perks-icon {
+  width:100%;
+  margin:auto;
+}
+
+.perks .card-p {
+  text-align:center;
+  color:#707a80;
+}
+
+
+
+.frame-frame {
+  width:95%;
+  max-width:700px;
+  margin:50px auto;
+}
+
+.frame-div {/*
+  text-align: center;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 
+  padding-top: 0px;
+  max-width:700px;
+  max-height:394px;
+  display:border-box;
+  margin-left:auto;
+  margin-right:auto;*/
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.frame-div iframe {/*
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.driver {
+  margin-top:100px;
+  margin-bottom:100px;
+  margin-left:auto;
+  margin-right:auto;
+  max-width:90%;
+}
+
+.logistics .driver-h2 {
+  color: #707a80;
+  text-align:left;
+  margin:auto;
+  font-size:50px;
+  max-width:95%;
+  max-width:900px;
+}
+
+.driver-right {
+  text-align:center !important;
+  margin-bottom:50px !important;
+}
+
+.logistics .cool-ul {
+  color:#2a2e30;
+  text-decoration: underline orange;
+}
+
+.logistics .driver-p {
+  color:#707a80;
+  max-width:95%;
+  max-width:900px;
+  margin:auto;
+  text-size:18px;
+  letter-spacing:1px;
+  margin-top:20px;
+}
+
+
+.logistics .frame-frame {
+  margin-bottom:100px;
+}
+
+.logistics .ending {
+  background-image: url(./about-end.jpg);
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------media queries >767px-------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 767px) {
+  ul {
+    background-color:#f8f9fa;
+    padding:0px;
+  }
+
+  li a{
+    color:black !important;
+  }
+}
