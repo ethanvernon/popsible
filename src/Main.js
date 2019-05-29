@@ -21,7 +21,7 @@ export class Main extends Component {
 		var settings = {
 			dots: true,
 			infinite: true,
-			speed: 500,
+			speed: 1000,
 			autoplaySpeed: 5000,
 			slidesToShow: 1,
 			slidesToScroll: 1,
