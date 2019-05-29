@@ -41,6 +41,11 @@ export class Header extends Component {
 		<div className='navbar-container'>
 			<Navbar id='white-nav' color='light' light>
 				<NavbarBrand href="/" className="mr-auto"><img src={textLogo}/></NavbarBrand>
+				<Nav navbar className='ml-auto book-now'>
+				<NavItem>
+					book now
+				</NavItem>
+				</Nav>
 				<NavbarToggler onClick={this.toggle} className='mr-2'/>
 				<Collapse isOpen={this.state.isOpen} navbar>
 					<Nav navbar className='ml-auto'>

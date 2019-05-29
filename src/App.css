@@ -45,6 +45,12 @@ nav {
   color:lightblue !important;
 }
 
+.book-now {
+  padding-right:10px;
+  background-color:transparent;
+  color:white;
+}
+
 .nav-item {
   padding-left:10px;
   padding-right:10px;
@@ -90,6 +96,26 @@ li a:hover {
 
 .navbar-nav {
   text-align:right;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.8)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.slick-dots li button:focus {
+  opacity: .1 ;
+}
+
+.slick-dots li.slick-active button {
+  opacity: 1 !important;
+}
+
+.slick-dots li button:hover, .slick-dots li.slick-active button:hover {
+  opacity: 1 !important;
+}
+
+.navbar-toggler {
+  border-color: transparent !important;
 }
 
 @media only screen and (min-width: 900px) {

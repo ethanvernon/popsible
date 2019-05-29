@@ -21,12 +21,14 @@ export class Main extends Component {
 		var settings = {
 			dots: true,
 			infinite: true,
-			speed: 7000,
+			speed: 500,
+			autoplaySpeed: 5000,
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			autoplay: true,
 			fade:true,
-			pauseOnHover: false
+			pauseOnHover: false,
+			focusOnChange: true
 		};
 		return (
 			<Slider {...settings} className='main-slider'>
