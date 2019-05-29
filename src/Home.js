@@ -7,6 +7,7 @@ import {Glimpses} from './Glimpses';
 import {AboutUs} from './AboutUs';
 import {Footer} from './Footer';
 import {Bottom} from './Bottom';
+import {Main} from './Main';
 import mockup from './mockup.jpg';
 
 export class Home extends Component {
@@ -35,10 +36,7 @@ export class Home extends Component {
 
 			<Header/>
 
-			<div className='main' id='main'>
-				<div className='statement'>
-				</div>
-			</div>
+			<Main/>
 
 			<YourStay/>
 
