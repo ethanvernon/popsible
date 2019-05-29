@@ -105,7 +105,6 @@ li a:hover {
 /*--------------------------------------------------------------------------------------------------------------------------*/
 
 .main {
-  background-image: url(./home-back.jpg);
   height:100vh;
   overflow:hidden; 
   width:100%;
@@ -117,6 +116,37 @@ li a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  z-index:-5;
+}
+
+.main-img-1 {  
+  background-image: url(./home-back.jpg);
+}
+
+.main-img-2 {  
+  background-image: url(./home-back2.jpg);
+}
+
+.main-img-3 {  
+  background-image: url(./home-back3.jpg);
+}
+
+.main-img-4 {  
+  background-image: url(./home-back4.jpg);
+}
+
+.slick-dots {
+  bottom: 50px !important;
+  z-index:5 !important;
+  background-color: transparent !important; 
+}
+
+.slick-dots li button::before {
+  font-size:10px !important;
+}
+
+.main-slider .slick-arrow {
+  display: none !important;
 }
 
 @media only screen and (max-width: 700px) {
