@@ -19,15 +19,15 @@ export class Bottom extends Component {
 	return (
 		
 		<div className='bottom'>
-			<Container className='glimpses-header'>
+			<Container className='bottom-container' style={{fontSize:12, height:36, marginTop:12}}>
 				<Row>
-					<Col>
+					<Col sm='3'>
 						<p>EN / Chinese / Chinese</p>
 					</Col>
-					<Col>
+					<Col sm={{ size: 2, order: 1, offset: 6 }}>
 						<p>Privacy policy</p>
 					</Col>
-					<Col>
+					<Col sm={{ size: 1, order: 2 }}>
 						<p>Copyright</p>
 					</Col>					
 				</Row>

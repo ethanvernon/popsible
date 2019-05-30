@@ -17,7 +17,7 @@ export class Happenings extends Component {
 
 	render() {
 	return (
-		<div className='happenings' style={{marginTop:500}}>
+		<div className='happenings' style={{marginTop:150}}>
 
 			<div className='happenings-description'>
 				<h2>Happenings</h2>

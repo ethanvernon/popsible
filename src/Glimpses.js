@@ -42,7 +42,7 @@ export class Glimpses extends Component {
 		};
 
 		return (		
-			<div className='glimpses' style={{marginTop:300, marginBottom:300}}>
+			<div className='glimpses' style={{marginTop:100, marginBottom:200}}>
 				<Container className='glimpses-container'>
 					<Row className='glimpses-row'>
 						<Col md="8">

@@ -483,37 +483,30 @@ li a:hover {
 /*-----------------------------------------footer---------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------------------------------*/
 .footer {
-  height:250px;
+  border-top:1px solid orange;
+  border-bottom: 1px solid lightgray;
+  line-height: 10px;
+  font-size: 10px;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 
-.social-media {
-  margin:30px auto;
-  width:fit-content;
+.footer-container {
+  max-width:800px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
-.social-icons {
-  margin: 20px;
+.footer-row {
+  max-width:800px;
+  margin-left:auto !important;
+  margin-right:auto !important;
 }
 
-.footer p {
-  text-align:center;
-  margin-bottom:50px;
-  color:#ff6700;
+.footer th, .footer td {
+  padding-top:0px !important;
+  padding-bottom:30px !important;
 }
-
-.up-container {
-  width:fit-content;
-  margin:30px auto;
-}
-
-.back-top {
- color:#ff6700;
-}
-
-.back-top:hover {
-  cursor:pointer;
-}
-
 
 
 /*--------------------------------------------------------------------------------------------------------------------------*/
