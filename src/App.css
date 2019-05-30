@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x:hidden;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------*/
@@ -188,7 +189,7 @@ li a:hover {
 }
 
 
-/*-----------------------------------------your-stay==----------------------------------------------------------------------*/
+/*-----------------------------------------your-stay------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------------------------------*/
 
 .your-stay {
@@ -209,12 +210,24 @@ li a:hover {
 
 .your-stay p {
   font-size:16px;
+  text-align:center;
+}
+
+.your-stay .slick-arrow {
+  display: none !important;
 }
 
 .your-stay-description {  
   display: flex;
   align-items: center;
   height: 50vh;
+  text-align:center;
+}
+
+.your-stay-container {  
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .your-stay-carousel {
@@ -250,55 +263,120 @@ li a:hover {
   background-image: url(./home-back4.jpg);
 }
 
+@media only screen and (max-width: 767px) {
+  .your-stay {
+    height:70vh;
+  }
+
+  .your-stay-description {  
+    display: flex;
+    align-items: center;
+    height: 25vh;
+  }
+
+  .your-stay-carousel {
+    margin-top:5vh !important;
+  }
+}
+
 /*-----------------------------------------happenings-----------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------------------------------*/
 
-.happenings-row {
-  max-width:calc(.9*100vw);
-  overflow: hidden;
-  margin-right:auto !important;
-  margin-left:auto !important;
+.happenings-description {
+  width:100vw;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
 }
 
-.left-col {
-  max-width:calc(.45*100vw);
+.happenings-description p {
+  max-width:500px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
-.right-col {
-  max-width:calc(.45*100vw);
+.grid {
+  max-width:1000px;
+  width:80%;
+  height:calc(1*width);
+  margin-left:auto;
+  margin-right:auto;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-flow: dense;
 }
 
-.big-box {
-  background-image: url(./home-back.jpg);
-  height:calc(.45*100vw);
-  overflow:hidden; 
+.wide {
+    grid-column: span 2;
+}
+
+.high {
+    grid-row: span 2;
+    min-height:500px;
+}
+
+.background-img {
+  overflow:hidden;
+  background-position: center !important;
+  background-repeat:no-repeat;
+  background-size:cover;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index:1;
+}
+
+.grid-2 {
+  background-color:#febf3e;
+}
+
+.grid-3 {
+  background-color:#8038c8;
+}
+
+.grid-6 {
+  background-color:#47e1d9;
+}
+
+.grid-8 {
+  background-color: #f97c44;
+}
+
+.top-left {
+  background-image:url(./eating.jpg);  
+}
+
+.grid-1 {
+  background-image:url(./happy-people.jpg);
+}
+
+.grid-4 {
+  background-image:url(./concert.jpg);
+}
+
+.grid-5 {
+  background-image:url(./pool.jpg);
+}
+
+.grid-7 {
+  background-image:url(./coffee.jpg);
+}
+
+.space {
   width:100%;
-  background-position: center !important;
-  background-repeat:no-repeat;
-  background-size:cover;
+  min-height:250px;
+  min-width:250px;
+  color:white;
   display:flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  z-index:2;
-
+  text-align:center;
 }
 
-.small-box {
-  background-image: url(./home-back.jpg);
-  height:calc(.225*100vw);
-  width:50%;
-  overflow:hidden; 
-  background-position: center !important;
-  background-repeat:no-repeat;
-  background-size:cover;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  z-index:2;
-  float:right;
-}
 
 /*-----------------------------------------glimpses-----------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------------------------------*/
@@ -318,7 +396,6 @@ li a:hover {
   margin-left:auto;
   margin-right:auto;
 }
-
 
 /*--------------------------------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------footer---------------------------------------------------------------------------*/
@@ -355,179 +432,6 @@ li a:hover {
   cursor:pointer;
 }
 
-/*--------------------------------------------------------------------------------------------------------------------------*/
-/*-----------------------------------------about----------------------------------------------------------------------------*/
-/*--------------------------------------------------------------------------------------------------------------------------*/
-
-.heading {
-  text-align:center;  
-  margin-top:48px;
-  background-image: url(./about-back.jpg);
-  height:500px;
-  overflow:hidden; 
-  width:100%;
-  background-position: center !important;
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-attachment:fixed;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color:white;
-}
-
-@media only screen and (max-width: 500px) {
-  .heading {    
-  	background-image: url(./about-back-mobile.jpg);
-  	background-attachment:scroll;
-  }
-}
-
-
-.logistics .heading h1 {  
-  letter-spacing:3px;
-  font-weight:700;  
-  font-size:calc(20px + 2vw);
-}
-
-.logistics .key-solution {
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  max-width:900px;
-  font-size:19px;
-}
-
-.logistics .perks {
-  margin-top:50px;
-  max-width:95%;
-  margin-left:auto;
-  margin-right:auto;
-}
-
-.logistics .perks h2 {
-  padding-top:40px;
-  text-align:center;
-  max-width:900px;
-  margin:auto;
-  font-size:35px;
-  color: #2a2e30;
-}
-
-.logistics .perks-desc {
-  padding-top:20px;
-  padding-bottom:20px;
-  text-align:center;
-  max-width:900px;
-  margin:auto;
-  font-size:20px;
-  letter-spacing:1px;  
-  margin-bottom:20px;
-  color:#707a80;
-}
-
-.logistics .card-h3 {
-  font-size:24px;
-  text-align:center;
-  padding-top:10px;
-  padding-bottom:10px;
-  color: #2a2e30;
-}
-
-.perks .perks-icon {
-  width:100%;
-  margin:auto;
-}
-
-.perks .card-p {
-  text-align:center;
-  color:#707a80;
-}
-
-
-
-.frame-frame {
-  width:95%;
-  max-width:700px;
-  margin:50px auto;
-}
-
-.frame-div {/*
-  text-align: center;
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 
-  padding-top: 0px;
-  max-width:700px;
-  max-height:394px;
-  display:border-box;
-  margin-left:auto;
-  margin-right:auto;*/
-    position: relative;
-    overflow: hidden;
-    padding-top: 56.25%;
-}
-
-.frame-div iframe {/*
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;*/
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-}
-
-.driver {
-  margin-top:100px;
-  margin-bottom:100px;
-  margin-left:auto;
-  margin-right:auto;
-  max-width:90%;
-}
-
-.logistics .driver-h2 {
-  color: #707a80;
-  text-align:left;
-  margin:auto;
-  font-size:50px;
-  max-width:95%;
-  max-width:900px;
-}
-
-.driver-right {
-  text-align:center !important;
-  margin-bottom:50px !important;
-}
-
-.logistics .cool-ul {
-  color:#2a2e30;
-  text-decoration: underline orange;
-}
-
-.logistics .driver-p {
-  color:#707a80;
-  max-width:95%;
-  max-width:900px;
-  margin:auto;
-  text-size:18px;
-  letter-spacing:1px;
-  margin-top:20px;
-}
-
-
-.logistics .frame-frame {
-  margin-bottom:100px;
-}
-
-.logistics .ending {
-  background-image: url(./about-end.jpg);
-}
 
 
 /*--------------------------------------------------------------------------------------------------------------------------*/

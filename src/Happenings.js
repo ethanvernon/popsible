@@ -17,32 +17,77 @@ export class Happenings extends Component {
 
 	render() {
 	return (
-		<div className='happenings'>
+		<div className='happenings' style={{marginTop:500}}>
 
 			<div className='happenings-description'>
 				<h2>Happenings</h2>
 				<p>Whether you are a local or new to the neighborhood, join the crowd and enjoy the vibe of these upcoming events.</p>
 			</div>
 
-			<Container className='happenings-grid'>
-				<Row noGutters className='happenings-row'>
-					<Col md='6' className='left-col'>
-						<div class="big big-box"></div>
-						<div class="small-box"></div>
-						<div class="small-box"></div>
-					</Col>
+			<ul className="grid">
+				<li className="wide high background-img top-left">
+					<div className='space'/>
+				</li>
+				<li className="background-img grid-1">
+					<div className='space'/>
+				</li>
+				<li className="background-img grid-2">
+					<div className='space'>
+						<h3>Art Central</h3>
+						<p>18 - 22.09.2019</p>
+					</div>
+				</li>
+				<li className="background-img grid-3">
+					<div className='space'>
+						<h3>Live Gigs</h3>
+						<p>Every Friday, Saturday</p>
+					</div>
+				</li>
+				<li className="background-img grid-4">
+					<div className='space'/>
+				</li>
+				<li className="background-img grid-5">
+					<div className='space'/>
+				</li>
+				<li className="background-img grid-6">
+					<div className='space'>
+						<h3>Drown into the heatwave</h3>
+						<p>July - August</p>
+					</div>
+				</li>
+				<li className="background-img grid-7">
+					<div className='space'/>
+				</li>
+				<li className="background-img grid-8">
+					<div className='space'>
+						<h3>Coffee Tasting</h3>
+						<p>18 - 22.03.2019</p>
+					</div>
+				</li>
+			</ul>
 
-					<Col md='6' className='right-col'>
-						<div class="small-box"></div>
-						<div class="small-box"></div>
-						<div class="small-box"></div>
-						<div class="small-box"></div>
-						<div class="small-box"></div>
-						<div class="small-box"></div>
-					</Col>
-				</Row>
-			</Container>
 		</div>
     );
   }
 }
+
+/*
+			<Container className='happenings-grid'>
+				<Row noGutters className='happenings-row'>
+					<Col md='6' className='left-col'>
+						<div className="big big-box"></div>
+						<div className="small-box"></div>
+						<div className="small-box"></div>
+					</Col>
+
+					<Col md='6' className='right-col'>
+						<div className="small-box"></div>
+						<div className="small-box"></div>
+						<div className="small-box"></div>
+						<div className="small-box"></div>
+						<div className="small-box"></div>
+						<div className="small-box"></div>
+					</Col>
+				</Row>
+			</Container>
+			*/

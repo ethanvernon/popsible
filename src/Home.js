@@ -48,7 +48,11 @@ export class Home extends Component {
 
 			<Footer/>
 
-			<Bottom/>			
+			<Bottom/>	
+
+			{
+				//<img style={{marginTop:500}} src={mockup}/>
+			}
 		</div>
 		);
 	}

@@ -17,12 +17,12 @@ export class Glimpses extends Component {
 
 	render() {
 	return (
-		<div className='glimpses'>
+		<div className='glimpses' style={{marginTop:300}}>
 			<Container className='glimpses-header'>
 				<Row>
 					<Col>
 						<h2>Glimpses of the Pops</h2>
-						<p>Explroe our hotel rooms, dining room, reception gym room and more...</p>
+						<p>Explore our hotel rooms, dining room, reception gym room and more...</p>
 					</Col>
 					<Col>
 						<Button>Prev</Button>

@@ -24,11 +24,19 @@ export class YourStay extends Component {
 			dots: false,
 			infinite: false,
 			speed: 500,
-			slidesToShow: 2.25,
+			slidesToShow: 2.5,
 			slidesToScroll: 1,
 			autoplay: false,
 			fade:false,
-			pauseOnHover: false
+			pauseOnHover: false, 
+			responsive: [
+				{
+				breakpoint: 767,
+				settings: {
+					slidesToShow: 1.25,
+					slidesToScroll: 1
+					}
+				}]
 		};
 
 	return (
@@ -36,7 +44,7 @@ export class YourStay extends Component {
 			<Container className='your-stay-container'>
 				<Row>
 					<Col md="5" className='your-stay-description'>
-					<div>
+					<div className='your-stay-container'>
 						<h2 className='your-stay-header'>Your Stay</h2>
 						<p>Not just a room to wash off your tiredness, also a place to feed up the travellers curiosity.</p>
 						<Button>prev</Button>
