@@ -17,19 +17,25 @@ export class AboutUs extends Component {
 
 	render() {
 	return (
-		<div className='about-us'>
-			<Container className='glimpses-header'>
+		<div>
+
+			<Container className='about-us-container'>
 				<Row>
-					<Col>						
-						<div class="current-slide"></div>
+					<Col md='7'>						
+						<div class="about-us-img-div"></div>
 					</Col>
-					<Col>
+					<Col md='5' className='about-us-right'>
 						<h2>About Us</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula faucibus velit sit amet ullamcorper. Sed interdum quam vitae odio interdum feugiat.</p>
 						<Button>Know More</Button>
 					</Col>
 				</Row>
 			</Container>
+
+
+			<div className='about-us'>
+			</div>
+
 		</div>
     );
   }

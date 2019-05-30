@@ -380,22 +380,6 @@ li a:hover {
 
 /*-----------------------------------------glimpses-----------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------------------------------*/
-.current-slide {
-  background-image: url(./home-back.jpg);
-  height:200px;
-  width:200px;
-  overflow:hidden; 
-  background-position: center !important;
-  background-repeat:no-repeat;
-  background-size:cover;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  z-index:2;
-  margin-left:auto;
-  margin-right:auto;
-}
 
 .glimpses {
   height:75vh;
@@ -452,6 +436,47 @@ li a:hover {
 
 .glimpses-img-4 {  
   background-image: url(./home-back4.jpg);
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------aboutUs--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+.about-us {
+  background:linear-gradient(0deg,rgba(255,255,255,0.6),rgba(255,255,255,0.6)),url(./footer-background.jpg);
+  height:60vh;
+  overflow:hidden; 
+  width:100%;
+  background-position: center !important;
+  background-repeat:no-repeat;
+  background-size:cover;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index:-5;
+  margin-top:-50vh;
+}
+
+.about-us-right {
+  margin-top:20vh;
+}
+
+.about-us-img-div {
+  background-image: url(./home-back.jpg);
+  height:60vh;
+  width:80vh;
+  overflow:hidden; 
+  background-position: center !important;
+  background-repeat:no-repeat;
+  background-size:cover;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index:1;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------*/
