@@ -17,7 +17,7 @@ export class AboutUs extends Component {
 
 	render() {
 	return (
-		<div className='glimpses'>
+		<div className='about-us'>
 			<Container className='glimpses-header'>
 				<Row>
 					<Col>						

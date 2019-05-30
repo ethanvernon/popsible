@@ -397,6 +397,63 @@ li a:hover {
   margin-right:auto;
 }
 
+.glimpses {
+  height:75vh;
+  background-color:#333;
+  color:white;
+}
+
+.glimpses-row {  
+  padding-top:5vh;
+  padding-bottom:5vh;
+}
+
+.glimpses-heading {
+  text-align:left;
+}
+
+.glimpses p {
+  font-size:14px;
+  text-align:left;
+}
+
+.glimpses-toggle {
+  text-align:right;
+}
+
+.glimpses-tab-number {
+}
+
+.glimpses-img {
+  height:65vh;
+  overflow:hidden;
+  background-position: center !important;
+  background-repeat:no-repeat;
+  background-size:cover;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index:1;
+  margin-left:20px;
+}
+
+.glimpses-img-1 {  
+  background-image: url(./home-back.jpg);
+}
+
+.glimpses-img-2 {  
+  background-image: url(./home-back2.jpg);
+}
+
+.glimpses-img-3 {  
+  background-image: url(./home-back3.jpg);
+}
+
+.glimpses-img-4 {  
+  background-image: url(./home-back4.jpg);
+}
+
 /*--------------------------------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------footer---------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------------------------------*/
