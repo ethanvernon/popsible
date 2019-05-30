@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/lolli-take-home/static/css/main.860cb919.chunk.css",
-    "main.js": "/lolli-take-home/static/js/main.da62cf26.chunk.js",
-    "main.js.map": "/lolli-take-home/static/js/main.da62cf26.chunk.js.map",
-    "runtime~main.js": "/lolli-take-home/static/js/runtime~main.09faece9.js",
-    "runtime~main.js.map": "/lolli-take-home/static/js/runtime~main.09faece9.js.map",
-    "static/css/2.bb904a91.chunk.css": "/lolli-take-home/static/css/2.bb904a91.chunk.css",
-    "static/js/2.673810e9.chunk.js": "/lolli-take-home/static/js/2.673810e9.chunk.js",
-    "static/js/2.673810e9.chunk.js.map": "/lolli-take-home/static/js/2.673810e9.chunk.js.map",
-    "index.html": "/lolli-take-home/index.html",
-    "precache-manifest.736e1db70f7465d50b50537a3eb9cd1f.js": "/lolli-take-home/precache-manifest.736e1db70f7465d50b50537a3eb9cd1f.js",
-    "service-worker.js": "/lolli-take-home/service-worker.js",
-    "static/css/2.bb904a91.chunk.css.map": "/lolli-take-home/static/css/2.bb904a91.chunk.css.map",
-    "static/css/main.860cb919.chunk.css.map": "/lolli-take-home/static/css/main.860cb919.chunk.css.map",
-    "static/media/App.css": "/lolli-take-home/static/media/pool.1a81a7a2.jpg",
-    "static/media/hotel-slide1.jpg": "/lolli-take-home/static/media/hotel-slide1.6b11f7f4.jpg",
-    "static/media/mockup.jpg": "/lolli-take-home/static/media/mockup.29e7ebf2.jpg",
-    "static/media/slick-theme.css": "/lolli-take-home/static/media/slick.f97e3bbf.svg"
+    "main.css": "/popsible/static/css/main.fde0ea7e.chunk.css",
+    "main.js": "/popsible/static/js/main.fb383e82.chunk.js",
+    "main.js.map": "/popsible/static/js/main.fb383e82.chunk.js.map",
+    "runtime~main.js": "/popsible/static/js/runtime~main.e6f48fbe.js",
+    "runtime~main.js.map": "/popsible/static/js/runtime~main.e6f48fbe.js.map",
+    "static/css/2.b8264442.chunk.css": "/popsible/static/css/2.b8264442.chunk.css",
+    "static/js/2.673810e9.chunk.js": "/popsible/static/js/2.673810e9.chunk.js",
+    "static/js/2.673810e9.chunk.js.map": "/popsible/static/js/2.673810e9.chunk.js.map",
+    "index.html": "/popsible/index.html",
+    "precache-manifest.704f513acbe50dc537e964bc08bfae81.js": "/popsible/precache-manifest.704f513acbe50dc537e964bc08bfae81.js",
+    "service-worker.js": "/popsible/service-worker.js",
+    "static/css/2.b8264442.chunk.css.map": "/popsible/static/css/2.b8264442.chunk.css.map",
+    "static/css/main.fde0ea7e.chunk.css.map": "/popsible/static/css/main.fde0ea7e.chunk.css.map",
+    "static/media/App.css": "/popsible/static/media/pool.1a81a7a2.jpg",
+    "static/media/hotel-slide1.jpg": "/popsible/static/media/hotel-slide1.6b11f7f4.jpg",
+    "static/media/mockup.jpg": "/popsible/static/media/mockup.29e7ebf2.jpg",
+    "static/media/slick-theme.css": "/popsible/static/media/slick.f97e3bbf.svg"
   }
 }
