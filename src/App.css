@@ -277,6 +277,11 @@ li a:hover {
   .your-stay-carousel {
     margin-top:5vh !important;
   }
+
+  .your-stay-container {
+    padding-top:30px;
+    padding-bottom:20px;
+  }
 }
 
 /*-----------------------------------------happenings-----------------------------------------------------------------------*/
