@@ -11,7 +11,7 @@ export class Footer extends Component {
 		<div className='footer'>
 			<Container className='footer-container'>
 				<Row noGutters className='footer-row'>
-					<Col md="3">
+					<Col md="3" className='footer-logo-col'>
 						<img style={{width:150}} src={textLogo}/>
 					</Col>
 					<Col md="2">

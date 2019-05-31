@@ -572,6 +572,20 @@ li a:hover {
   padding-bottom:30px !important;
 }
 
+@media only screen and (max-width: 767px) {
+  .table td, table th {
+    padding:0px !important;
+  }
+
+  .footer-logo-col {
+    display:none;
+  }
+
+  .footer th, .footer td {
+    padding-bottom:15px !important;
+  }
+}
+
 
 /*--------------------------------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------media queries >767px-------------------------------------------------------------*/
