@@ -1,0 +1,25 @@
+<svg width="168" height="60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+ <metadata>Created by potrace 1.15, written by Peter Selinger 2001-2017</metadata>
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="170" height="62" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g transform="translate(0,61) scale(0.10000000149011612,-0.10000000149011612) " fill="#000000" id="svg_1">
+   <path fill="#0052a4" d="m867.494303,590.92934l-28,-17l0,-162c0,-155 1,-163 19,-163c11,0 23,5 26,10c8,13 25,13 25,0c0,-5 -11,-12 -25,-16c-22,-6 -25,-11 -25,-55c0,-57 12,-62 66,-28c24,15 37,32 45,62c6,23 13,47 15,54c4,15 84,37 94,26c15,-18 48,-120 49,-156c1,-25 -7,-55 -24,-84c-33,-60 -25,-68 10,-9c36,61 37,132 3,203c-36,76 -45,84 -74,71c-33,-15 -48,0 -35,35c6,16 7,57 1,112c-8,80 -18,108 -45,127c-18,13 -69,8 -97,-10z" id="svg_2"/>
+  </g>
+  <metadata>Created by potrace 1.15, written by Peter Selinger 2001-2017</metadata>
+  <g id="svg_8" stroke="null">
+   <g transform="matrix(0.1034481305962954,0,0,-0.10055337064188728,-96.18831168107161,-115.58135889893333) " fill="#000000" id="svg_6">
+    <path fill="#0052a4" d="m1107.52629,-1159.64084c-38,-14 -54,-60 -54,-161c0,-86 0,-86 -27,-92c-22,-4 -34,-19 -60,-73c-30,-62 -33,-76 -33,-162c0,-62 4,-96 12,-98c8,-3 9,7 1,39c-17,75 -3,147 45,233c28,51 67,60 85,20c7,-14 12,-32 12,-40c0,-19 46,-86 73,-107c12,-10 32,-18 45,-18c20,0 22,5 22,45c0,39 -3,47 -25,55c-14,5 -25,14 -25,20c0,13 17,13 25,0c3,-5 13,-10 21,-10c12,0 14,28 14,163l0,163l-29,17c-32,19 -62,20 -102,6z" id="svg_7" stroke="null"/>
+   </g>
+  </g>
+  <text fill="#ffffff" stroke-width="0" x="111.477514" y="16.74197" id="svg_11" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(1.2514095306396484,0,0,1,-33.056425005197525,0) " stroke="#000"/>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" stroke-opacity="null" x="16.94999" y="26.624995" id="svg_15" font-size="26" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve">E</text>
+  <text fill="#0052a4" stroke="#000" stroke-width="0" stroke-opacity="null" x="31.3872" y="27.375001" id="svg_16" font-size="26" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve">than</text>
+  <text fill="#ffffff" stroke="#000" stroke-width="0" stroke-opacity="null" x="84.432073" y="27.375001" id="svg_18" font-size="26" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve">V</text>
+  <text fill="#0052a4" stroke="#000" stroke-width="0" stroke-opacity="null" x="101.859923" y="27.250535" id="svg_19" font-size="26" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve">ernon</text>
+ </g>
+</svg>

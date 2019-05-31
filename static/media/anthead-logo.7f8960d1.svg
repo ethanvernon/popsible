@@ -1,0 +1,15 @@
+<svg width="53" height="50" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+ <metadata>Created by potrace 1.15, written by Peter Selinger 2001-2017</metadata>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="63" width="65" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1" fill="#000000" transform="translate(0,50) scale(0.10000000149011612,-0.10000000149011612) ">
+   <path fill="#0052a4" id="svg_2" d="m142,493c-40,-8 -55,-47 -63,-162c-4,-60 -3,-110 2,-116c15,-16 10,-24 -18,-27c-38,-4 -67,-47 -58,-88c10,-45 61,-100 93,-100c24,0 24,1 -9,23c-19,12 -42,39 -52,60c-17,34 -18,40 -4,61c9,13 29,25 46,28c25,4 30,1 35,-23c3,-15 25,-49 50,-74c53,-56 79,-57 84,-5c3,28 -2,39 -24,57c-32,25 -27,41 6,23c22,-12 47,-10 83,5c27,11 20,-10 -8,-23c-19,-9 -25,-19 -25,-44c0,-52 12,-63 47,-45c39,21 52,38 68,89c6,24 19,44 28,46c24,5 87,-26 87,-43c0,-16 -80,-101 -115,-122c-19,-11 -19,-12 4,-12c33,-1 131,99 131,133c0,25 -26,47 -70,61c-35,11 -38,18 -32,94c6,93 -12,177 -45,198c-23,15 -28,15 -76,-1c-48,-16 -55,-16 -89,-2c-21,9 -41,15 -45,15c-4,-1 -18,-4 -31,-6z"/>
+  </g>
+  <text font-weight="bold" stroke="#000" transform="matrix(1.0332668087570582,0,0,1.5316101941320293,0.2966275089480399,4.018444971696954) " xml:space="preserve" text-anchor="start" font-family="Euphoria, sans-serif" font-size="21" id="svg_3" y="17.318678" x="10.090786" stroke-width="0" fill="#ffffff">EV</text>
+ </g>
+</svg>
