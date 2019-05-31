@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import textLogo from './mern-text-logo.png';
+import textLogo from './logo.svg';
 import {Button, Container, Col, Row, Table} from 'reactstrap';
 
 
