@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import textLogo from './logo.svg';
+import textLogo from './anthead-logo.svg';
 import {Button, Container, Col, Row, Table} from 'reactstrap';
 
 
@@ -11,10 +11,10 @@ export class Footer extends Component {
 		<div className='footer'>
 			<Container className='footer-container'>
 				<Row noGutters className='footer-row'>
-					<Col md="3" className='footer-logo-col'>
-						<img style={{width:150}} src={textLogo}/>
+					<Col sm="3" className='footer-logo-col'>
+						<img style={{width:"50%", maxWidth:70}} src={textLogo}/>
 					</Col>
-					<Col md="2">
+					<Col sm="2">
 							<p><strong>HOTELS</strong></p>
 							<p>Popway Hotel Hong Kong</p>
 							<p>Popway Hotel Dotobori</p>
@@ -23,7 +23,7 @@ export class Footer extends Component {
 							<p>About Us</p>
 							<p>CSR</p>
 					</Col>
-					<Col md="2">
+					<Col sm="2">
 							<p><strong>OUR HOTEL BRAND</strong></p>
 							<p>Popway Hotel</p>
 							<p>Pop Hotel</p>
@@ -32,7 +32,7 @@ export class Footer extends Component {
 							<p><strong>RESERVATION</strong></p>
 							<p><strong>CONTACT</strong></p>
 					</Col>
-					<Col md={{ size: 4, offset: 1 }}>
+					<Col sm={{ size: 4, offset: 1 }}>
 						<Table borderless responsive>
 							<tbody>
 								<tr>
