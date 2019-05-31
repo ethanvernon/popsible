@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import textLogo from './mern-text-logo.png';
+import textLogo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   Navbar,
