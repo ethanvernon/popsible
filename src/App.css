@@ -453,6 +453,21 @@ li a:hover {
   background-image: url(./home-back4.jpg);
 }
 
+@media only screen and (max-width: 767px) {
+    .glimpses-img {
+    height:50vh;
+    overflow:hidden;
+    background-position: center !important;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index:1;
+  }
+}
+
 /*--------------------------------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------aboutUs--------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------------------------------*/
