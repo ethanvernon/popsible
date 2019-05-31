@@ -453,6 +453,10 @@ li a:hover {
   background-image: url(./home-back4.jpg);
 }
 
+.glimpses .slick-arrow {
+  display: none !important;
+}
+
 @media only screen and (max-width: 767px) {
     .glimpses-img {
     height:50vh;
