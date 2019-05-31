@@ -391,7 +391,7 @@ li a:hover {
   text-align:center;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 666px) {
   .wide {
       grid-column: span 1;
   }
