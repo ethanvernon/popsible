@@ -205,6 +205,10 @@ li a:hover {
   width:100%;
 }
 
+.your-stay-carousel-col {
+  padding-right:0px !important;
+}
+
 .your-stay-container {  
   max-width:100% !important;
 }

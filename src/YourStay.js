@@ -52,7 +52,7 @@ export class YourStay extends Component {
 						</div>
 					</Col>
 
-					<Col md="7" >
+					<Col md="7" className='your-stay-carousel-col'>
 						<div className='your-stay-carousel'>							
 							<Slider {...settings} className='your-stay-slider'>
 								<div className='your-stay-img your-stay-img-1' id='your-stay1'>
