@@ -211,6 +211,8 @@ li a:hover {
 
 .your-stay-container {  
   max-width:100% !important;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .your-stay h2 {
@@ -232,12 +234,6 @@ li a:hover {
   align-items: center;
   height: 50vh;
   text-align:center;
-}
-
-.your-stay-container {  
-  width:90%;
-  margin-left:auto;
-  margin-right:auto;
 }
 
 .your-stay-carousel {
