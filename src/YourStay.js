@@ -56,6 +56,9 @@ export class YourStay extends Component {
 						<div className='your-stay-carousel'>							
 							<Slider {...settings} className='your-stay-slider'>
 								<div className='your-stay-img your-stay-img-1' id='your-stay1'>
+									<div className='your-stay-caption-div'>
+										<p className='your-stay-caption'>Fusion Asian Cuisine</p>
+									</div>
 								</div>
 								<div className='your-stay-img your-stay-img-2' id='your-stay2'>
 								</div>
