@@ -288,6 +288,7 @@ li a:hover {
     padding-top:30px;
     padding-bottom:20px;
   }
+
 }
 
 /*-----------------------------------------happenings-----------------------------------------------------------------------*/
@@ -352,7 +353,7 @@ li a:hover {
 }
 
 .grid-8 {
-  background-color: #f97c44;
+  background-color:#f97c44;
 }
 
 .top-left {
@@ -395,6 +396,79 @@ li a:hover {
   .high {
       grid-row: span 1;
       min-height:250px;
+  }
+
+  /*hide all solely image squares on small screens*/
+  .grid-1 {
+    display:none;
+  }
+  .grid-4 {
+    display:none;
+  }
+  .grid-5 {
+    display:none;
+  }
+  .grid-7 {
+    display:none;
+  }
+
+  /*move each image to a before hover, and on hover show details*/
+  .grid-2 {
+    background-image:url(./happy-people.jpg);
+  }
+  .grid-2 .space {
+    opacity:0;
+  }
+  .grid-2:hover {
+    background-image:none;
+    background-color:#febf3e;
+  }
+  .grid-2:hover .space {
+    opacity:1;
+  }
+
+  .grid-3 {
+    background-image:url(./concert.jpg);
+  }
+  .grid-3 .space {
+    opacity:0;
+  }
+  .grid-3:hover {
+    background-image:none;
+    background-color:#8038c8;
+  }
+  .grid-3:hover .space {
+    opacity:1;
+  }
+
+
+  .grid-6 {
+    background-image:url(./pool.jpg);
+  }
+  .grid-6 .space {
+    opacity:0;
+  }
+  .grid-6:hover {
+    background-image:none;
+    background-color:#47e1d9;
+  }
+  .grid-6:hover .space {
+    opacity:1;
+  }
+
+
+  .grid-8 {
+    background-image:url(./coffee.jpg);
+  }
+  .grid-8 .space {
+    opacity:0;
+  }
+  .grid-8:hover {
+    background-image:none;
+    background-color:#f97c44;
+  }
+  .grid-8:hover .space {
+    opacity:1;
   }
 }
 
