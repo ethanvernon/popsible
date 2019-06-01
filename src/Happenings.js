@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button, Container, Col, Row} from 'reactstrap';
-import slide1 from './hotel-slide1.jpg';
+import slide1 from './hotel-slide1-min.jpg';
 
 export class Happenings extends Component {
 	constructor(props) {

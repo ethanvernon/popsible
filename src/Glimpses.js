@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button, Container, Col, Row} from 'reactstrap';
-import slide1 from './hotel-slide1.jpg';
+import slide1 from './hotel-slide1-min.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";

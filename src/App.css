@@ -142,21 +142,20 @@ li a:hover {
 }
 
 .main-img-1 {  
-  background-image: url(./home-back.jpg);
+  background-image: url(./home-back-min.jpg);
 }
 
 .main-img-2 {  
-  background-image: url(./home-back2.jpg);
+  background-image: url(./home-back2-min.jpg);
 }
 
 .main-img-3 {  
-  background-image: url(./home-back3.jpg);
+  background-image: url(./home-back3-min.jpg);
 }
 
 .main-img-4 {  
-  background-image: url(./home-back4.jpg);
+  background-image: url(./home-back4-min.jpg);
 }
-
 
 .main-slider .slick-list {
   height:100vh;
@@ -205,6 +204,18 @@ li a:hover {
   width:100%;
 }
 
+.your-stay-arrows-div {
+  text-align:left;
+}
+
+.your-stay-left-arrow {
+  margin-right:20px;
+}
+
+.your-stay-right-arrow {
+  margin-left:20px;
+}
+
 .your-stay-carousel-col {
   padding-right:0px !important;
 }
@@ -218,11 +229,14 @@ li a:hover {
 .your-stay h2 {
   font-size:36px;
   margin:0;
+  text-align:left;
+  margin-bottom:8px;
 }
 
-.your-stay p {
+.your-stay-body {
   font-size:16px;
-  text-align:center;
+  max-width:400px;
+  text-align:left;
 }
 
 .your-stay .slick-arrow {
@@ -251,22 +265,34 @@ li a:hover {
   align-items: center;
   justify-content: center;
   z-index:1;
+  position:relative;
+}
+
+.your-stay-caption-div {
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+
+.your-stay-caption {
+  width:100%;
+  text-align:center;
 }
 
 .your-stay-img-1 {  
-  background-image: url(./home-back.jpg);
+  background-image: url(./home-back-min.jpg);
 }
 
 .your-stay-img-2 {  
-  background-image: url(./home-back2.jpg);
+  background-image: url(./home-back2-min.jpg);
 }
 
 .your-stay-img-3 {  
-  background-image: url(./home-back3.jpg);
+  background-image: url(./home-back3-min.jpg);
 }
 
 .your-stay-img-4 {  
-  background-image: url(./home-back4.jpg);
+  background-image: url(./home-back4-min.jpg);
 }
 
 @media only screen and (max-width: 767px) {
@@ -287,6 +313,23 @@ li a:hover {
   .your-stay-container {
     padding-top:30px;
     padding-bottom:20px;
+  }
+
+  .your-stay-caption {
+    font-size:16px;
+  }
+
+
+  .your-stay h2 {
+    text-align:center;
+  }
+
+  .your-stay-body {
+    text-align: center;
+  }
+
+  .your-stay-arrows-div {
+    text-align:center;
   }
 
 }
@@ -357,24 +400,24 @@ li a:hover {
 }
 
 .top-left {
-  background-image:url(./eating.jpg);  
+  background-image:url(./eating-min.jpg);  
   position:relative;
 }
 
 .grid-1 {
-  background-image:url(./happy-people.jpg);
+  background-image:url(./happy-people-min.jpg);
 }
 
 .grid-4 {
-  background-image:url(./concert.jpg);
+  background-image:url(./concert-min.jpg);
 }
 
 .grid-5 {
-  background-image:url(./pool.jpg);
+  background-image:url(./pool-min.jpg);
 }
 
 .grid-7 {
-  background-image:url(./coffee.jpg);
+  background-image:url(./coffee-min.jpg);
 }
 
 .space {
@@ -447,7 +490,7 @@ li a:hover {
 
   /*move each image to a before hover, and on hover show details*/
   .grid-2 {
-    background-image:url(./happy-people.jpg);
+    background-image:url(./happy-people-min.jpg);
   }
   .grid-2 .space {
     opacity:0;
@@ -461,7 +504,7 @@ li a:hover {
   }
 
   .grid-3 {
-    background-image:url(./concert.jpg);
+    background-image:url(./concert-min.jpg);
   }
   .grid-3 .space {
     opacity:0;
@@ -476,7 +519,7 @@ li a:hover {
 
 
   .grid-6 {
-    background-image:url(./pool.jpg);
+    background-image:url(./pool-min.jpg);
   }
   .grid-6 .space {
     opacity:0;
@@ -491,7 +534,7 @@ li a:hover {
 
 
   .grid-8 {
-    background-image:url(./coffee.jpg);
+    background-image:url(./coffee-min.jpg);
   }
   .grid-8 .space {
     opacity:0;
@@ -551,19 +594,19 @@ li a:hover {
 }
 
 .glimpses-img-1 {  
-  background-image: url(./home-back.jpg);
+  background-image: url(./home-back-min.jpg);
 }
 
 .glimpses-img-2 {  
-  background-image: url(./home-back2.jpg);
+  background-image: url(./home-back2-min.jpg);
 }
 
 .glimpses-img-3 {  
-  background-image: url(./home-back3.jpg);
+  background-image: url(./home-back3-min.jpg);
 }
 
 .glimpses-img-4 {  
-  background-image: url(./home-back4.jpg);
+  background-image: url(./home-back4-min.jpg);
 }
 
 .glimpses .slick-arrow {
@@ -590,7 +633,7 @@ li a:hover {
 /*--------------------------------------------------------------------------------------------------------------------------*/
 
 .about-us {
-  background:linear-gradient(0deg,rgba(255,255,255,0.6),rgba(255,255,255,0.6)),url(./footer-background.jpg);
+  background:linear-gradient(0deg,rgba(255,255,255,0.6),rgba(255,255,255,0.6)),url(./footer-background-min.jpg);
   height:60vh;
   overflow:hidden; 
   width:100%;
@@ -610,7 +653,7 @@ li a:hover {
 }
 
 .about-us-img-div {
-  background-image: url(./home-back.jpg);
+  background-image: url(./home-back-min.jpg);
   height:60vh;
   width:80vh;
   overflow:hidden; 
