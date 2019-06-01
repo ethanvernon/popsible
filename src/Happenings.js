@@ -26,7 +26,12 @@ export class Happenings extends Component {
 
 			<ul className="grid">
 				<li className="wide high background-img top-left">
-					<div className='space'/>
+					<div className='big-image space'>
+						<div className='big-image-caption'>
+							<p className='big-image-top'>Fusion Asian Cuisine</p>
+							<p className='big-image-bottom'>April 2019</p>
+						</div>
+					</div>
 				</li>
 				<li className="background-img grid-1">
 					<div className='space'/>
