@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1fc1cf599c9277a7dded2e8680982fcf",
+    "revision": "bcd721361a7f87b93ab4923cbedbfbea",
     "url": "/popsible/index.html"
   },
   {
-    "revision": "666a4c4ab6ddc31fdfad",
+    "revision": "1a0f264b167fc8c0a9a0",
     "url": "/popsible/static/css/2.b8264442.chunk.css"
   },
   {
-    "revision": "892c4bc95e2f42810ed6",
-    "url": "/popsible/static/css/main.44345596.chunk.css"
+    "revision": "e8a0d6d9880fa34c6904",
+    "url": "/popsible/static/css/main.d2702da6.chunk.css"
   },
   {
-    "revision": "666a4c4ab6ddc31fdfad",
-    "url": "/popsible/static/js/2.fe3b4f44.chunk.js"
+    "revision": "1a0f264b167fc8c0a9a0",
+    "url": "/popsible/static/js/2.12e2f21b.chunk.js"
   },
   {
-    "revision": "892c4bc95e2f42810ed6",
-    "url": "/popsible/static/js/main.3d8cc6f7.chunk.js"
+    "revision": "e8a0d6d9880fa34c6904",
+    "url": "/popsible/static/js/main.d7039f8a.chunk.js"
   },
   {
     "revision": "fb804036bb9328dfee7a",
