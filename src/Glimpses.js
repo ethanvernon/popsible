@@ -6,6 +6,9 @@ import slide1 from './hotel-slide1-min.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 export class Glimpses extends Component {
 	constructor(props) {
@@ -50,8 +53,8 @@ export class Glimpses extends Component {
 							<p>Explore our hotel rooms, dining room, reception gym room and more...</p>
 						</Col>
 						<Col md="4" className='glimpses-toggle'>
-							<Button>Prev</Button>
-							<Button>Next</Button>
+							<FontAwesomeIcon icon={ faArrowLeft } size='2x' transform="" color='#47e1d9' className='glimpses-arrow glimpses-left-arrow' />
+							<FontAwesomeIcon icon={ faArrowRight } size='2x' transform="" color='#47e1d9' className='glimpses-arrow glimpses-right-arrow'/>
 							<div className='glimpes-tab-number'>3 of 10</div>
 						</Col>
 					</Row>

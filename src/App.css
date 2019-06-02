@@ -613,6 +613,19 @@ li a:hover {
   display: none !important;
 }
 
+
+.glimpses-arrows-div {
+  text-align:left;
+}
+
+.glimpses-left-arrow {
+  margin-right:20px;
+}
+
+.glimpses-right-arrow {
+  margin-left:20px;
+}
+
 @media only screen and (max-width: 767px) {
     .glimpses-img {
     height:50vh;
@@ -626,6 +639,15 @@ li a:hover {
     justify-content: center;
     z-index:1;
   }
+
+
+.glimpses-left-arrow {
+  margin-right:10px;
+}
+
+.glimpses-right-arrow {
+  margin-left:10px;
+}
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------*/
