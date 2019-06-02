@@ -143,6 +143,15 @@ nav {
     left:50%;
     margin-left:-470px;
   }
+
+  .show {
+    width:30vw;
+  }
+
+  .collapse-list {
+    width:30vw;
+    text-align:center;
+  }
 }
 
 @media only screen and (max-width: 767px) {
