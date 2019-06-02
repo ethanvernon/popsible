@@ -27,41 +27,44 @@ export class Header extends Component {
 		};
 
 		this.toggle = this.toggle.bind(this);
-		this.closeNav = this.closeNav.bind(this);
 		this.handleScroll = this.handleScroll.bind(this);
 		this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
 	}
 
+
+	//on load, create event listeners for our scroll position and screen width
 	componentDidMount() {
 		this.updateWindowDimensions();
 		window.addEventListener('scroll', this.handleScroll);
 		window.addEventListener('resize', this.updateWindowDimensions);
 	}
 
+	//remove event listeners in the case our component unmounts
 	componentWillUnmount(){
 		window.removeEventListener('scroll', this.handleScroll);
 		window.removeEventListener('resize', this.updateWindowDimensions);
 	}
 
+	//if anything resizes, update our width and height to reflect the changed window dimensions
 	updateWindowDimensions() {
 		this.setState({ width: window.innerWidth, height: window.innerHeight });
 	}
 
+	//called whenever the hamburger icon is clicked
 	toggle() {
-
 		let newClass;
 		let newContainerClass;
 		let darkFonts;
 
 		//if we're closing nav and we're past the top of page
 		if (this.state.scroll > this.state.height-100 && this.state.showNav) {
-			newClass='solid-nav';
-			newContainerClass='solid-container';
+			//make sure fonts are dark
 			darkFonts=true;
 		}
 
 		//if we're closing nav and we're not past top of page
 		if (this.state.scroll < this.state.height-100 && this.state.showNav) {
+			//make nav invisible and reset font colors to light
 			newClass='invis-nav';
 			newContainerClass='invis-container';
 			this.setState({
@@ -73,8 +76,7 @@ export class Header extends Component {
 
 		//if we're opening the nav
 		if (!this.state.showNav) {
-			newClass='solid-nav';
-			newContainerClass='solid-container';	
+			//make the fonts dark
 			darkFonts=true		
 		}
 
@@ -85,31 +87,22 @@ export class Header extends Component {
 		});
 	}
 
-	closeNav() {
-		if (this.state.isOpen == true) {
-			this.toggle();
-		}
-	}
-
+	//called whenever the user scrolls up or down the page
 	handleScroll(e) {
 		let scroll=parseInt(e.target.scrollingElement.scrollTop);
 		let newClass=this.state.navClass;
 		let newContainerClass=this.state.containerClass;
 
 		//console.log(scroll);
-		console.log(this.state.height);
+		//console.log(this.state.height);
 
-		//we're past the top and the nav is open
+		//we're past the top, make the nav solid
 		if (scroll > this.state.height-100) {
 			newClass='solid-nav';
 			newContainerClass='solid-container';
-		} else if (scroll < this.state.height-100) {
-			newClass='invis-nav';
-			newContainerClass='invis-container';
-		} else if (this.state.showNav) {
-			newClass='solid-nav';
-			newContainerClass='solid-nav';
-		} else if (scroll > this.state.height-100 && !this.state.showNav) { //we're at the top and the nav is closed
+		}
+		//we're at the top, make the nav transparent
+		else if (scroll < this.state.height-100) {
 			newClass='invis-nav';
 			newContainerClass='invis-container';
 		}
@@ -120,7 +113,7 @@ export class Header extends Component {
 			scroll: scroll
 		});
 
-		console.log(this.state.scroll);
+		//console.log(this.state.scroll);
 	}
 
 
@@ -129,6 +122,7 @@ export class Header extends Component {
 		let showNav='';
 		let darkFont='';
 
+		//if the nav is supposed to be showing, we need to have dark fonts and open the nav
 		if (this.state.showNav) {
 			showNav='show';
 			darkFont='dark-nav-items';

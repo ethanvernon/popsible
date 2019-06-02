@@ -99,11 +99,10 @@ nav {
 
 .show {  
   width:20vw;
-  min-width:150px;
-  transition: width 0.4s ease-in;
-  -ms-transition: width 0.4s ease-in;
-  -moz-transition: width 0.4s ease-in;
-  -webkit-transition: width 0.4s ease-in;
+  transition: width 0.4s ease-out;
+  -ms-transition: width 0.4s ease-out;
+  -moz-transition: width 0.4s ease-out;
+  -webkit-transition: width 0.4s ease-out;
 }
 
 .transparent-navbar {  
@@ -113,9 +112,12 @@ nav {
 .collapse-list {
   list-style:none;
   width:20vw;
-  min-width:150px;
   text-align:right;
   padding-right:30px;
+  transition: width 0.4s ease-in;
+  -ms-transition: width 0.4s ease-in;
+  -moz-transition: width 0.4s ease-in;
+  -webkit-transition: width 0.4s ease-in;
 }
 
 .navbar-toggler {
@@ -165,6 +167,17 @@ nav {
     height:58.58px;
   }
 }
+
+@media only screen and (max-width: 620px) {
+  .show {
+    width:41vw;
+  }
+
+  .collapse-list {
+    width:41vw;
+  }
+}
+
 
 /*--------------------------------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------Home-----------------------------------------------------------------------------*/
