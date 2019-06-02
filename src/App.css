@@ -91,19 +91,19 @@ nav {
   width:0px;
   padding-top:66px;
   height:100vh;
-  transition: width 0.4s ease-in;
-  -ms-transition: width 0.4s ease-in;
-  -moz-transition: width 0.4s ease-in;
-  -webkit-transition: width 0.4s ease-in;
+  transition: width 0.4s ease-out;
+  -ms-transition: width 0.4s ease-out;
+  -moz-transition: width 0.4s ease-out;
+  -webkit-transition: width 0.4s ease-out;
 }
 
 .show {  
   width:20vw;
   min-width:150px;
-  transition: width 0.4s ease-out;
-  -ms-transition: width 0.4s ease-out;
-  -moz-transition: width 0.4s ease-out;
-  -webkit-transition: width 0.4s ease-out;
+  transition: width 0.4s ease-in;
+  -ms-transition: width 0.4s ease-in;
+  -moz-transition: width 0.4s ease-in;
+  -webkit-transition: width 0.4s ease-in;
 }
 
 .transparent-navbar {  
