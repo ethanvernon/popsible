@@ -30,17 +30,17 @@ html {
 .invis-container {
   background-color:transparent;
   transition: background-color 0.4s ease-in;
-  -ms-transition: opacity 0.4s ease-in;
-  -moz-transition: opacity 0.4s ease-in;
-  -webkit-transition: opacity 0.4s ease-in;
+  -ms-transition: background-color 0.4s ease-in;
+  -moz-transition: background-color 0.4s ease-in;
+  -webkit-transition: background-color 0.4s ease-in;
 }
 
 .solid-container {
   background-color:#f8f9fa;
   transition: background-color 0.4s ease-in;
-  -ms-transition: opacity 0.4s ease-in;
-  -moz-transition: opacity 0.4s ease-in;
-  -webkit-transition: opacity 0.4s ease-in;
+  -ms-transition: background-color 0.4s ease-in;
+  -moz-transition: background-color 0.4s ease-in;
+  -webkit-transition: background-color 0.4s ease-in;
 }
 
 nav {
