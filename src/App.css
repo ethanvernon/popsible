@@ -248,6 +248,22 @@ nav {
   .main {
     background-attachment: scroll;
   }
+
+  .main-img-1 {  
+    background-image: url(./home-back-min767.jpg);
+  }
+
+  .main-img-2 {  
+    background-image: url(./home-back2-min767.jpg);
+  }
+
+  .main-img-3 {  
+    background-image: url(./home-back3-min767.jpg);
+  }
+
+  .main-img-4 {  
+    background-image: url(./home-back4-min767.jpg);
+  }
 }
 
 
@@ -348,19 +364,19 @@ nav {
 }
 
 .your-stay-img-1 {  
-  background-image: url(./home-back-min.jpg);
+  background-image: url(./home-back-min767.jpg);
 }
 
 .your-stay-img-2 {  
-  background-image: url(./home-back2-min.jpg);
+  background-image: url(./home-back2-min767.jpg);
 }
 
 .your-stay-img-3 {  
-  background-image: url(./home-back3-min.jpg);
+  background-image: url(./home-back3-min767.jpg);
 }
 
 .your-stay-img-4 {  
-  background-image: url(./home-back4-min.jpg);
+  background-image: url(./home-back4-min767.jpg);
 }
 
 @media only screen and (max-width: 767px) {
@@ -386,7 +402,6 @@ nav {
   .your-stay-caption {
     font-size:16px;
   }
-
 
   .your-stay h2 {
     text-align:center;
@@ -481,19 +496,19 @@ nav {
 }
 
 .grid-1 {
-  background-image:url(./happy-people-min.jpg);
+  background-image:url(./happy-people-min700.jpg);
 }
 
 .grid-4 {
-  background-image:url(./concert-min.jpg);
+  background-image:url(./concert-min700.jpg);
 }
 
 .grid-5 {
-  background-image:url(./pool-min.jpg);
+  background-image:url(./pool-min700.jpg);
 }
 
 .grid-7 {
-  background-image:url(./coffee-min.jpg);
+  background-image:url(./coffee-min700.jpg);
 }
 
 .space {
@@ -576,7 +591,7 @@ nav {
 
   /*move each image to a before hover, and on hover show details*/
   .grid-2 {
-    background-image:url(./happy-people-min.jpg);
+    background-image:url(./happy-people-min700.jpg);
   }
   .grid-2 .space {
     opacity:0;
@@ -590,7 +605,7 @@ nav {
   }
 
   .grid-3 {
-    background-image:url(./concert-min.jpg);
+    background-image:url(./concert-min700.jpg);
   }
   .grid-3 .space {
     opacity:0;
@@ -605,7 +620,7 @@ nav {
 
 
   .grid-6 {
-    background-image:url(./pool-min.jpg);
+    background-image:url(./pool-min700.jpg);
   }
   .grid-6 .space {
     opacity:0;
@@ -620,7 +635,7 @@ nav {
 
 
   .grid-8 {
-    background-image:url(./coffee-min.jpg);
+    background-image:url(./coffee-min700.jpg);
   }
   .grid-8 .space {
     opacity:0;
@@ -631,6 +646,11 @@ nav {
   }
   .grid-8:hover .space {
     opacity:1;
+  }
+
+  .top-left {
+    background-image:url(./eating-min700.jpg);  
+    position:relative;
   }
 }
 
@@ -684,19 +704,19 @@ nav {
 }
 
 .glimpses-img-1 {  
-  background-image: url(./home-back-min.jpg);
+  background-image: url(./home-back-min767.jpg);
 }
 
 .glimpses-img-2 {  
-  background-image: url(./home-back2-min.jpg);
+  background-image: url(./home-back2-min700.jpg);
 }
 
 .glimpses-img-3 {  
-  background-image: url(./home-back3-min.jpg);
+  background-image: url(./home-back3-min700.jpg);
 }
 
 .glimpses-img-4 {  
-  background-image: url(./home-back4-min.jpg);
+  background-image: url(./home-back4-min700.jpg);
 }
 
 .glimpses .slick-arrow {
@@ -772,7 +792,7 @@ nav {
 }
 
 .about-us-img-div {
-  background-image: url(./home-back-min.jpg);
+  background-image: url(./home-back-min767.jpg);
   height:60vh;
   width:80vh;
   overflow:hidden; 
@@ -816,6 +836,7 @@ nav {
   }
 
   .about-us {
+    background:linear-gradient(0deg,rgba(255,255,255,0.6),rgba(255,255,255,0.6)),url(./footer-background-min700.jpg);
     margin-top: -125vh;
     height:100vh;
   }
