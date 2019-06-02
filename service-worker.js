@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/popsible/precache-manifest.1541ce52a629394f82b8b99154b043a5.js"
+  "/popsible/precache-manifest.4d84abbe6ea43fc97f406cfc752d4725.js"
 );
 
 self.addEventListener('message', (event) => {
