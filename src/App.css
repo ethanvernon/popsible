@@ -99,6 +99,7 @@ nav {
 
 .show {  
   width:20vw;
+  min-width:150px;
   transition: width 0.4s ease-out;
   -ms-transition: width 0.4s ease-out;
   -moz-transition: width 0.4s ease-out;
@@ -112,6 +113,7 @@ nav {
 .collapse-list {
   list-style:none;
   width:20vw;
+  min-width:150px;
   text-align:right;
   padding-right:30px;
 }
