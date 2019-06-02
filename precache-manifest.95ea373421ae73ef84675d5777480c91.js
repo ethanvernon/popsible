@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc0bce5ab3d12ee4d072d9699b75eaae",
+    "revision": "2ceaa31b748502eef038342026cad4fd",
     "url": "/popsible/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/popsible/static/css/2.dc3cbb6c.chunk.css"
   },
   {
-    "revision": "21ed6b794d8ae6fe7bc3",
-    "url": "/popsible/static/css/main.5af101f9.chunk.css"
+    "revision": "f37a482c914ef7568cf2",
+    "url": "/popsible/static/css/main.6a3ce1e7.chunk.css"
   },
   {
     "revision": "71e82b687ede199cbe75",
     "url": "/popsible/static/js/2.1a2d663d.chunk.js"
   },
   {
-    "revision": "21ed6b794d8ae6fe7bc3",
+    "revision": "f37a482c914ef7568cf2",
     "url": "/popsible/static/js/main.743f6017.chunk.js"
   },
   {
