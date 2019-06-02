@@ -47,11 +47,18 @@ export class Glimpses extends Component {
 			beforeChange: (current, next) => this.setState({ activeSlide: next+1 }),
 			responsive: [
 				{
-				breakpoint: 767,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1
-					}
+					breakpoint: 1000,
+					settings: {
+						slidesToShow: 2.33,
+						slidesToScroll: 1
+						}
+				},
+				{
+					breakpoint: 850,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+						}
 				}]
 		};
 
