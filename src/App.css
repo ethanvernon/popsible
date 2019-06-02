@@ -8,6 +8,11 @@ html {
   max-width:100vw !important;
 }
 
+.home {  
+  font-family: 'Noto Sans HK', sans-serif !important;
+  color: #444;
+}
+
 /*--------------------------------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------Header---------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------------------------------*/
@@ -55,9 +60,10 @@ nav {
 .nav-item {
   padding-left:10px;
   padding-right:10px;
-  font-size:14px;
-  font-weight:500;
+  font-size:12px;
+  font-weight:100;
   letter-spacing:1px;
+  text-decoration:underline;
 }
 
 .nav-item a {
@@ -204,6 +210,10 @@ li a:hover {
   width:100%;
 }
 
+.your-stay-arrow:hover {
+  cursor:pointer;
+}
+
 .your-stay-arrows-div {
   text-align:left;
 }
@@ -227,10 +237,16 @@ li a:hover {
 }
 
 .your-stay h2 {
-  font-size:36px;
+  font-size:32px;
+  font-weight:600;
+  letter-spacing:1px;
   margin:0;
   text-align:left;
   margin-bottom:8px;
+}
+
+.your-stay .slick-list {
+  padding: 0px 30px 0px 0px !important;
 }
 
 .your-stay-body {
@@ -342,6 +358,13 @@ li a:hover {
   text-align:center;
   margin-left:auto;
   margin-right:auto;
+  color:#333;
+}
+
+.happenings-description h2 {
+  font-weight:600;
+  letter-spacing:1px;
+  user-select:none;
 }
 
 .happenings-description p {
@@ -430,6 +453,16 @@ li a:hover {
   align-items: center;
   justify-content: center;
   text-align:center;
+}
+
+.space h3 {
+  font-weight:600;
+  font-size:24px;
+  letter-spacing:1px;
+}
+
+.space p {
+
 }
 
 .big-image {
@@ -565,6 +598,8 @@ li a:hover {
 
 .glimpses-heading {
   text-align:left;
+  font-weight:600;
+  letter-spacing:1px;
 }
 
 .glimpses p {
@@ -577,6 +612,8 @@ li a:hover {
 }
 
 .glimpses-tab-number {
+  font-size:14px;
+  user-select:none;
 }
 
 .glimpses-img {
@@ -613,6 +650,9 @@ li a:hover {
   display: none !important;
 }
 
+.glimpses-arrow:hover {
+  cursor:pointer;
+}
 
 .glimpses-arrows-div {
   text-align:left;
@@ -671,6 +711,11 @@ li a:hover {
 
 .about-us-right {
   margin-top:20vh;
+}
+
+.about-us-right h2 {
+  color:#ff7d14;
+  font-weight:600;
 }
 
 .about-us-img-div {

@@ -17,7 +17,16 @@ export class Glimpses extends Component {
 		this.state = {
 		};
 
-		// this.toggle = this.toggle.bind(this);
+		this.next = this.next.bind(this);
+		this.previous = this.previous.bind(this);
+	}
+
+	next() {
+		this.slider.slickNext();
+	}
+
+	previous() {
+		this.slider.slickPrev();
 	}
 
 
@@ -26,7 +35,7 @@ export class Glimpses extends Component {
 		var settings = {
 			dots: false,
 			infinite: true,
-			speed: 500,
+			speed: 300,
 			slidesToShow: 3,
 			slidesToScroll: 1,
 			autoplay: false,
@@ -53,14 +62,14 @@ export class Glimpses extends Component {
 							<p>Explore our hotel rooms, dining room, reception gym room and more...</p>
 						</Col>
 						<Col md="4" className='glimpses-toggle'>
-							<FontAwesomeIcon icon={ faArrowLeft } size='2x' transform="" color='#47e1d9' className='glimpses-arrow glimpses-left-arrow' />
-							<FontAwesomeIcon icon={ faArrowRight } size='2x' transform="" color='#47e1d9' className='glimpses-arrow glimpses-right-arrow'/>
-							<div className='glimpes-tab-number'>3 of 10</div>
+							<FontAwesomeIcon icon={ faArrowLeft } size='2x' transform="" color='#47e1d9' className='glimpses-arrow glimpses-left-arrow' onClick={this.previous} />
+							<FontAwesomeIcon icon={ faArrowRight } size='2x' transform="" color='#47e1d9' className='glimpses-arrow glimpses-right-arrow' onClick={this.next} />
+							<div className='glimpses-tab-number'>3 of 10</div>
 						</Col>
 					</Row>
 				</Container>
 				
-				<Slider {...settings} className='glimpses-slider'>
+				<Slider {...settings} ref={c => (this.slider = c)} className='glimpses-slider'>
 					<div>
 						<div className='glimpses-img glimpses-img-1'/>
 					</div>

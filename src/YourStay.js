@@ -18,7 +18,16 @@ export class YourStay extends Component {
 		this.state = {
 		};
 
-		// this.toggle = this.toggle.bind(this);
+		this.next = this.next.bind(this);
+		this.previous = this.previous.bind(this);
+	}
+
+	next() {
+		this.slider.slickNext();
+	}
+
+	previous() {
+		this.slider.slickPrev();
 	}
 
 
@@ -28,16 +37,18 @@ export class YourStay extends Component {
 			dots: false,
 			infinite: true,
 			speed: 500,
-			slidesToShow: 2.5,
+			slidesToShow: 2,
 			slidesToScroll: 1,
 			autoplay: false,
 			fade:false,
 			pauseOnHover: false, 
+			className: 'center',
+			centerMode:true,
 			responsive: [
 				{
 				breakpoint: 767,
 				settings: {
-					slidesToShow: 1.25,
+					slidesToShow: 1,
 					slidesToScroll: 1
 					}
 				}]
@@ -52,15 +63,15 @@ export class YourStay extends Component {
 							<h2 className='your-stay-header'>Your Stay</h2>
 							<p className='your-stay-body'>Not just a room to wash off your tiredness, also a place to feed up the travellers curiosity.</p>
 							<div className='your-stay-arrows-div'>
-								<FontAwesomeIcon icon={ faArrowLeft } size='2x' transform="" color='#ff7d14' className='your-stay-arrow your-stay-left-arrow' />
-								<FontAwesomeIcon icon={ faArrowRight } size='2x' transform="" color='#ff7d14' className='your-stay-arrow your-stay-right-arrow'/>
+								<FontAwesomeIcon icon={ faArrowLeft } size='2x' transform="" color='#ff7d14' className='your-stay-arrow your-stay-left-arrow' onClick={this.previous} />
+								<FontAwesomeIcon icon={ faArrowRight } size='2x' transform="" color='#ff7d14' className='your-stay-arrow your-stay-right-arrow' onClick={this.next} />
 							</div>
 						</div>
 					</Col>
 
 					<Col md="8" className='your-stay-carousel-col'>
 						<div className='your-stay-carousel'>							
-							<Slider {...settings} className='your-stay-slider'>
+							<Slider {...settings} ref={c => (this.slider = c)} className='your-stay-slider'>
 								<div className='your-stay-img your-stay-img-1' id='your-stay1'>
 									<div className='your-stay-caption-div'>
 										<p className='your-stay-caption'>
