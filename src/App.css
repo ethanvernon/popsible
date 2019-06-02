@@ -640,14 +640,13 @@ li a:hover {
     z-index:1;
   }
 
+  .glimpses-left-arrow {
+    margin-right:10px;
+  }
 
-.glimpses-left-arrow {
-  margin-right:10px;
-}
-
-.glimpses-right-arrow {
-  margin-left:10px;
-}
+  .glimpses-right-arrow {
+    margin-left:10px;
+  }
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------*/
@@ -689,6 +688,18 @@ li a:hover {
   z-index:1;
   margin-left:auto;
   margin-right:auto;
+}
+
+.know-more-container {
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+}
+
+.know-more-text {
+  margin-left:10px;
+  font-weight:600;
+  color: #ff7d14;
 }
 
 @media only screen and (max-width: 767px) {
