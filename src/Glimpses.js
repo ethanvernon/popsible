@@ -15,6 +15,7 @@ export class Glimpses extends Component {
 		super(props);
 
 		this.state = {
+			activeSlide: 1,
 		};
 
 		this.next = this.next.bind(this);
@@ -43,6 +44,7 @@ export class Glimpses extends Component {
 			pauseOnHover: false, 
 			className: "center",
 			centerMode: true,
+			beforeChange: (current, next) => this.setState({ activeSlide: next+1 }),
 			responsive: [
 				{
 				breakpoint: 767,
@@ -64,7 +66,7 @@ export class Glimpses extends Component {
 						<Col md="4" className='glimpses-toggle'>
 							<FontAwesomeIcon icon={ faArrowLeft } size='2x' transform="" color='#47e1d9' className='glimpses-arrow glimpses-left-arrow' onClick={this.previous} />
 							<FontAwesomeIcon icon={ faArrowRight } size='2x' transform="" color='#47e1d9' className='glimpses-arrow glimpses-right-arrow' onClick={this.next} />
-							<div className='glimpses-tab-number'>3 of 10</div>
+							<div className='glimpses-tab-number'>{this.state.activeSlide} of 4</div>
 						</Col>
 					</Row>
 				</Container>
