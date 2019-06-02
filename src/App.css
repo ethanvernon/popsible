@@ -20,20 +20,27 @@ html {
 
 /*holds navbar, matches background for large screens*/
 .navbar-container {
-  background-color:transparent !important;
   width:100%;
-  height:100px;
-  z-index:5;
+  height:66px;
+  z-index:10;
   position:fixed;
   top:0px;
 }
 
-#white-nav {
-  background-color:transparent !important;
+.invis-container {
+  background-color:transparent;
+  transition: background-color 0.4s ease-in;
+  -ms-transition: opacity 0.4s ease-in;
+  -moz-transition: opacity 0.4s ease-in;
+  -webkit-transition: opacity 0.4s ease-in;
 }
 
-.collapse ul {
-  background-color:white;
+.solid-container {
+  background-color:#f8f9fa;
+  transition: background-color 0.4s ease-in;
+  -ms-transition: opacity 0.4s ease-in;
+  -moz-transition: opacity 0.4s ease-in;
+  -webkit-transition: opacity 0.4s ease-in;
 }
 
 nav {
@@ -44,11 +51,7 @@ nav {
 }
 
 .navbar-brand img{
-  height:50px;
-}
-
-.navbar-brand a:hover {
-  color:lightblue !important;
+  height:40px;
 }
 
 .book-now {
@@ -57,55 +60,23 @@ nav {
   color:white;
 }
 
+.book-now .nav-item {  
+  text-decoration:underline;
+}
+
 .nav-item {
   padding-left:10px;
   padding-right:10px;
   font-size:12px;
   font-weight:100;
   letter-spacing:1px;
-  text-decoration:underline;
-}
-
-.nav-item a {
-  color: #ff6700 !important;
-}
-
-ul {
-  padding:10px;
-}
-
-li a {
-  color:#ff6700 !important;
-  line-height:30px;
-}
-
-a:link {
-  text-decoration: none !important;
-}
-
-li a:hover {
-  color:lightblue !important;
-}
-
-.dropdown .nav-link {
-  padding:0px;
-  padding-left:20px;
-}
-
-.no-padding-nav {
-  padding:0px !important;
-  padding-left:20px !important;
-}
-
-.padded-nav {
-  padding-left:20px;
 }
 
 .navbar-nav {
   text-align:right;
 }
 
-.navbar-light .navbar-toggler-icon {
+.invis-nav .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.8)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
 
@@ -113,6 +84,13 @@ li a:hover {
   border-color: transparent !important;
 }
 
+.solid-nav .nav-item {
+  color:#333 !important;
+}
+
+.solid-nav .navbar-toggler-icon {  
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50,50,50, 0.8)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
 
 @media only screen and (min-width: 900px) {
   nav {
@@ -124,7 +102,11 @@ li a:hover {
 
 @media only screen and (max-width: 767px) {
   .navbar-brand img{
-    height:50px;
+    height:30px;
+  }
+
+  .navbar-container {
+    height:58.58px;
   }
 }
 
