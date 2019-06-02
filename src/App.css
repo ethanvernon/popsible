@@ -477,7 +477,7 @@ nav {
   margin-bottom:32px;
 }
 
-@media only screen and (max-width: 666px) {
+@media only screen and (max-width: 624px) {
   .wide {
       grid-column: span 1;
   }
